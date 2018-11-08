@@ -1,7 +1,3 @@
 class Author
-  attr_accessor :name, :artist
-  
-  def initialize
-    @artist = Artist.new
-  end
+  attr_accessor :name
 end
